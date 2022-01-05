@@ -43,7 +43,7 @@ function menubar(){
 		flag=1;
 		menu_bar.style.display="flex";
 		menu_bar.style.animationName="menu-go-down";
-		menu_bar.style.animationDuration="2.5s";
+		menu_bar.style.animationDuration="1.5s";
 		Array.from(menu_buts).forEach(element=>{
 			element.style.display="block";
 			element.style.animationName="for_opacity";
